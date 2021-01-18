@@ -17,7 +17,7 @@ alias gp='git push'
 
 
 # Docker aliases
-alias lip="cd ~/repositories/lipschitz/container/pytorch/ && docker-compose run lip bash"
+alias lip="cd ~/repositories/lipschitz/container/pytorch/ && docker-compose run -p 22221:22 lip"
 
 # Source .local_bash_aliases if exists
 if [ -f ~/.local_bash_aliases ]; then
