@@ -16,5 +16,5 @@ config config --local status.showUntrackedFiles no
 
 3. add pull to .baschrc
 ```
-echo -e "\ndotfiles" pull >> .bashrc.backup 
+echo -e "\ndotfiles" pull >> .bashrc 
 ```
