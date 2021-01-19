@@ -17,7 +17,9 @@ alias gp='git push'
 
 
 # Docker aliases
-alias lip="cd ~/repositories/lipschitz/container/pytorch/ && docker-compose run -p 22221:22 lip"
+alias lip="cd ~/repositories/lipschitz/container/pytorch/ && docker-compose run -p 22221:22 --rm lip"
+alias tb="docker run -it --rm -u $(id -u):$(id -g) -p 7007:6006 -v /home/${USER}/cache:/cache tensorflow/tensorflow tensorboard --bind_all"
+
 
 # Source .local_bash_aliases if exists
 if [ -f ~/.local_bash_aliases ]; then
