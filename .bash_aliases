@@ -18,6 +18,7 @@ alias gp='git push'
 
 # Docker aliases
 alias lip="cd ~/repositories/lipschitz/container/pytorch/ && docker-compose run -p 22221:22 --rm lip"
+alias vat="cd ~/repositories/VAT-pytorch/container/ && docker-compose run -p 22223:22 --rm vat"
 alias torch_ex="cd ~/repositories/docker/container/pytorch_example/ && docker-compose run --rm torch_example"
 alias tf_ex="cd ~/repositories/docker/container/tensorflow_example/ && docker-compose run --rm tf_example"
 
