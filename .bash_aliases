@@ -1,7 +1,7 @@
 
 # Config version controling: https://www.atlassian.com/git/tutorials/dotfiles
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-
+alias df='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 alias h='htop'
 alias n='watch nvidia-smi'
@@ -23,6 +23,7 @@ alias vat_tf="cd ~/repositories/vat_tf/container/ && docker-compose run -p 22224
 alias torch_ex="cd ~/repositories/docker/container/pytorch_example/ && docker-compose run --rm torch_example"
 alias tf_ex="cd ~/repositories/docker/container/tensorflow_example/ && docker-compose run --rm tf_example"
 alias valp_tf="cd ~/repositories/adversarial_lipschitz_regularization/container/ && docker-compose run -p 22225:22 --rm valp_tf"
+alias valp_tfl="cd ~/repositories/adversarial_lipschitz_regularization/container/ && docker-compose run --rm valp_tf"
 
 alias tb="docker run -it --rm -u $(id -u):$(id -g) -p 7007:6006 -v /home/${USER}/cache:/cache tensorflow/tensorflow tensorboard --bind_all"
 
