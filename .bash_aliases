@@ -26,8 +26,8 @@ alias tf_ex="cd ~/repositories/docker/container/tensorflow_example/ && docker-co
 alias valp_tf="cd ~/repositories/adversarial_lipschitz_regularization/container/ && docker-compose run -p 22225:22 --rm valp_tf"
 alias valp_tfl="cd ~/repositories/adversarial_lipschitz_regularization/container/ && docker-compose run --rm valp_tf"
 
-alias sgr="cd ~/repositories/stylegan2-ada-pytorch/container/ && docker-compose run -p 22226:22 --rm sg2"
-alias sgl="cd ~/repositories/stylegan2-ada-pytorch/container/ && docker-compose run --rm sg2"
+alias sgr="cd ~/repositories/stylegan2-ada-pytorch/container/ && ./docker_run.sh -c bash -p 22226"
+alias sgl="cd ~/repositories/stylegan2-ada-pytorch/container/ && ./docker_run.sh -c bash"
 
 alias tb="docker run -it --rm -u $(id -u):$(id -g) -p 7007:6006 -v /home/${USER}/cache:/cache tensorflow/tensorflow tensorboard --bind_all"
 
