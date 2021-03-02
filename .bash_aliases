@@ -12,6 +12,10 @@ alias gcached='git diff --cached'
 alias gc='git commit -m'
 alias gi='git add -i'
 alias gp='git push'
+alias graph='git log --all --decorate --oneline --graph'
+alias lg="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
+alias lg2="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all"
+
 
 # SSH aliases
 
@@ -28,6 +32,9 @@ alias valp_tfl="cd ~/repositories/adversarial_lipschitz_regularization/container
 
 alias sgr="cd ~/repositories/stylegan2-ada-pytorch/container/ && ./docker_run.sh -c bash -p 22226"
 alias sgl="cd ~/repositories/stylegan2-ada-pytorch/container/ && ./docker_run.sh -c bash"
+
+alias ckar="cd ~/repositories/cka_alter/container/ && ./docker_run.sh -c bash -p 22227"
+alias ckal="cd ~/repositories/cka_alter/container/ && ./docker_run.sh -c bash"
 
 alias tb="docker run -it --rm -u $(id -u):$(id -g) -p 7007:6006 -v /home/${USER}/cache:/cache tensorflow/tensorflow tensorboard --bind_all"
 alias tb2="docker run -it --rm -u $(id -u):$(id -g) -p 7008:6006 -v /home/${USER}/cache:/cache tensorflow/tensorflow tensorboard --bind_all"
