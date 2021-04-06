@@ -36,6 +36,9 @@ alias sgl="cd ~/repositories/stylegan2-ada-pytorch/container/ && ./docker_run.sh
 alias ckar="cd ~/repositories/cka_alter/container/ && ./docker_run.sh -i -c bash -p 22227"
 alias ckal="cd ~/repositories/cka_alter/container/ && ./docker_run.sh -i -c bash"
 
+alias bar="cd ~/repositories/bilateral_attention/container/ && ./docker_run.sh -i -c bash -p 22228"
+alias bal="cd ~/repositories/bilateral_attention/container/ && ./docker_run.sh -i -c bash"
+
 alias tb="docker run -it --rm -u $(id -u):$(id -g) -p 7007:6006 -v /home/${USER}/cache:/cache tensorflow/tensorflow tensorboard --bind_all"
 alias tb2="docker run -it --rm -u $(id -u):$(id -g) -p 7008:6006 -v /home/${USER}/cache:/cache tensorflow/tensorflow tensorboard --bind_all"
 
