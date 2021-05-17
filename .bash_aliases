@@ -5,8 +5,8 @@ alias dotf='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 alias h='htop'
 alias n='watch nvidia-smi'
-alias lsfull="find '$(pwd)'"
-alias search="find '$(pwd)' -name"
+alias lsfull='find `pwd`'
+alias search='find `pwd` -name'
 
 
 # Git aliases
