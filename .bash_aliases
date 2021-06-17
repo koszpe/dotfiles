@@ -35,6 +35,9 @@ alias valp_tfl="cd ~/repositories/adversarial_lipschitz_regularization/container
 alias sgr="cd ~/repositories/stylegan2-ada-pytorch/container/ && ./docker_run.sh -c bash -p 22226"
 alias sgl="cd ~/repositories/stylegan2-ada-pytorch/container/ && ./docker_run.sh -c bash"
 
+alias sg2r="cd ~/repositories/stylegan2/container/ && ./docker_run.sh -c bash -p 22231"
+alias sg2l="cd ~/repositories/stylegan2/container/ && ./docker_run.sh -c bash"
+
 alias ckar="cd ~/repositories/cka_alter/container/ && ./docker_run.sh -i -c bash -p 22227"
 alias ckal="cd ~/repositories/cka_alter/container/ && ./docker_run.sh -i -c bash"
 alias ckajupy="cd ~/repositories/cka_alter/container/ && ./docker_run.sh -i -j 8889 -c 'jupyter notebook --ip=0.0.0.0 --no-browser'"
