@@ -49,7 +49,7 @@ alias bal="cd ~/repositories/bilateral_attention/container/ && ./docker_run.sh -
 alias vaer="cd ~/repositories/PyTorch-VAE/container/ && ./docker_run.sh -i -c bash -p 22230"
 alias vael="cd ~/repositories/PyTorch-VAE/container/ && ./docker_run.sh -i -c bash"
 
-alias binr="cd ~/repositories/binary-classification/container/ && ./docker_run.sh -i -c bash -p 22231"
+alias binr="cd ~/repositories/binary-classification/container/ && ./docker_run.sh -i -c bash -p 22232"
 alias binl="cd ~/repositories/binary-classification/container/ && ./docker_run.sh -i -c bash"
 
 alias tb="docker run -it --rm -u $(id -u):$(id -g) -p 7007:6006 -v /home/${USER}/cache:/cache tensorflow/tensorflow tensorboard --bind_all"
