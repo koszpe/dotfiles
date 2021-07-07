@@ -52,8 +52,8 @@ alias vael="cd ~/repositories/PyTorch-VAE/container/ && ./docker_run.sh -i -c ba
 alias binr="cd ~/repositories/binary-classification/container/ && ./docker_run.sh -i -c bash -p 22232"
 alias binl="cd ~/repositories/binary-classification/container/ && ./docker_run.sh -i -c bash"
 
-alias binr="cd ~/repositories/woundai/container/ && ./docker_run.sh -i -c bash -p 22233"
-alias binl="cd ~/repositories/woundai/container/ && ./docker_run.sh -i -c bash"
+alias woundr="cd ~/repositories/woundai/container/ && ./docker_run.sh -i -c bash -p 22233"
+alias woundl="cd ~/repositories/woundai/container/ && ./docker_run.sh -i -c bash"
 
 alias tb="docker run -it --rm -u $(id -u):$(id -g) -p 7007:6006 -v /home/${USER}/cache:/cache tensorflow/tensorflow tensorboard --bind_all"
 alias tb2="docker run -it --rm -u $(id -u):$(id -g) -p 7008:6006 -v /home/${USER}/cache:/cache tensorflow/tensorflow tensorboard --bind_all"
